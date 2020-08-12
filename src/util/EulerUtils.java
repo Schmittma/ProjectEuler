@@ -96,6 +96,12 @@ public class EulerUtils {
     	return getNumberOfPartitions(n,n);
     }
     
+    /* n is the number to be partitioned
+     * 
+     * k is the maximum number of parts the partition may have
+     * 
+     * Note: Getting all partitions requires k to be equal to n 
+     */
     public static int getNumberOfPartitions(int n, int k){
     	
     	if(n == 0){
