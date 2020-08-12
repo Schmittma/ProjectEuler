@@ -2,7 +2,7 @@ package euler;
 import util.EulerUtils;
 import java.util.List;
 
-public class Problem69 {
+public class p69 {
 
 	public static void main(String[] args) {
 		double largestNumber = 0;

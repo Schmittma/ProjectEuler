@@ -1,6 +1,6 @@
 package euler;
 
-public class Problem206 {
+public class p206 {
 
 	public static void main(String[] args) {
 		long lowest =  1020304050607080900L;

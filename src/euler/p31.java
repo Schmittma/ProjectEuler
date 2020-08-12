@@ -1,6 +1,6 @@
 package euler;
 
-public class Problem31 {
+public class p31 {
 	
 	static final int[] coins = {1,2,5,10,20,50,100,200};
 	

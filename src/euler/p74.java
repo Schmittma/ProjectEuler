@@ -1,5 +1,5 @@
 package euler;
 
-public class Problem74 {
+public class p74 {
 
 }

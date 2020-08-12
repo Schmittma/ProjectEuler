@@ -1,6 +1,6 @@
 package euler;
 import util.EulerUtils;
-public class Problem76 {
+public class p76 {
 
 	public static void main(String[] args) {
 		int n = 100;

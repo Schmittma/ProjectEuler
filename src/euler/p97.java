@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigInteger;
 
-public class Problem97 {
+public class p97 {
 
 	public static void main(String[] args) {
 		BigInteger mnmp = new BigInteger("28433").multiply(new BigInteger("2").pow(7830457)).add(new BigInteger("1"));

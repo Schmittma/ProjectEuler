@@ -1,6 +1,6 @@
 package euler;
 import util.EulerUtils;
-public class Problem71 {
+public class p71 {
 
 	public static void main(String[] args) {
 		int[] closestFraction = new int[2];

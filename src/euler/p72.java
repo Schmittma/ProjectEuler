@@ -12,7 +12,7 @@ import util.StopWatch;
  * @author deschmm3
  *
  */
-public class Problem72 {
+public class p72 {
 
 	public static void main(String[] args) {
 		

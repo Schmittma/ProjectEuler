@@ -4,7 +4,7 @@ import util.EulerUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Problem387 {
+public class p387 {
 
 	public static void main(String[] args) {
 		

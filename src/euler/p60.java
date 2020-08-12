@@ -3,7 +3,7 @@ package euler;
 import java.util.ArrayList;
 
 import util.EulerUtils;
-public class Problem60 {
+public class p60 {
 
 	public static void main(String[] args) {
 		

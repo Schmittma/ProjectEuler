@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class Problem81 {
+public class p81 {
 	
 	/*
 	 *   x -> 

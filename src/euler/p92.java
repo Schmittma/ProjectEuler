@@ -1,6 +1,6 @@
 package euler;
 
-public class Problem92 {
+public class p92 {
 
 	public static void main(String[] args) {
 		int border = 10000000;

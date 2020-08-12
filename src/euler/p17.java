@@ -1,6 +1,6 @@
 package euler;
 
-public class Problem17 {
+public class p17 {
 
 	final static int[] ONES = {3,3,5,4,4,3,5,5,4};
 	final static int TEN = 3;

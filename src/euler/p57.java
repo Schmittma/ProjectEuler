@@ -2,7 +2,7 @@ package euler;
 
 import java.math.BigInteger;
 
-public class Problem57 {
+public class p57 {
 
 	// Zähler(x+1) = Zähler(x)*2 + Zähler(x-1)
 	// Nenner(x+1) = Nenner(x) + Zähler(x)

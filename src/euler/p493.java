@@ -2,7 +2,7 @@ package euler;
 
 import java.util.Random;
 
-public class Problem493 {
+public class p493 {
 
 	public static void main(String[] args) {
 		
