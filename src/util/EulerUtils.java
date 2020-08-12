@@ -125,4 +125,37 @@ public class EulerUtils {
         factors.addAll(reverseFactors);
         return factors;
     }
+    
+	/* 
+	 * Based on: https://www.geeksforgeeks.org/farey-sequence/ 
+	 * 
+	 * TODO: If needed, make a separate function that can return all those values
+	 */
+	public static long farey_count(int n) 
+	{ 
+	    long count;
+		
+		// We know first two terms are 0/1 and 1/n 
+	    double x1 = 0, y1 = 1, x2 = 1, y2 = n; 
+	    count = 2;
+	    
+	    double x, y = 0; // For next terms to be evaluated 
+	    while (y != 1.0)  
+	    { 
+	        // Using recurrence relation to find the next term 
+	        x = Math.floor((y1 + n) / y2) * x2 - x1; 
+	        y = Math.floor((y1 + n) / y2) * y2 - y1; 
+	 
+	        count++;
+	  
+	        // Update x1, y1, x2 and y2 for next iteration 
+	        x1 = x2; 
+	        x2 = x; 
+	        y1 = y2; 
+	        y2 = y; 
+	    } 
+	    
+	    return count;
+	} 
+	
 }
