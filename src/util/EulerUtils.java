@@ -92,6 +92,10 @@ public class EulerUtils {
         return factors;
     }
     
+    public static int getNumberOfPartitions(int n){
+    	return getNumberOfPartitions(n,n);
+    }
+    
     public static int getNumberOfPartitions(int n, int k){
     	
     	if(n == 0){
