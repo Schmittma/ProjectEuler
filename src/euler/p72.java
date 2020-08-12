@@ -12,6 +12,8 @@ import util.StopWatch;
  * @author deschmm3
  *
  */
+
+/* !!! NOTE: IF YOU FOUND THE SOLUTION, IT SHOULD BE A TRIVIAL TASK TO FIND THE SOLUTION TO P73 !!! */
 public class p72 {
 
 	public static void main(String[] args) {
