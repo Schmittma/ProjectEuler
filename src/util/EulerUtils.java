@@ -158,4 +158,24 @@ public class EulerUtils {
 	    return count;
 	} 
 	
+	public static List<Integer> getDigitsOfNumber(int number){
+		List<Integer> digits = new ArrayList<>();
+		while(number > 0){
+			digits.add(number%10);
+			number/=10;
+		}
+		return digits;
+	}
+	
+	public static int getFactorialDigitSum(int n){
+		List<Integer> digits = getDigitsOfNumber(n);
+		int sum = 0;
+		
+		for(int digit : digits){ 
+			sum += EulerConstants.FACTORIAL[digit];
+		}
+		
+		return sum;
+	}
+	
 }
