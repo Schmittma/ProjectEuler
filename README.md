@@ -1,5 +1,5 @@
 # ProjectEuler
-This Repository contains my solutions to the *https://projecteuler.net* challenges. They are mainly written in Java but may contain some python if i want to use very big numbers.
+This Repository contains my solutions for the [Project Euler](https://projecteuler.net "Project Euler Website") challenges. They are mainly written in Java but may contain some python if i want to use very big numbers.
 
 ## Structure
 
