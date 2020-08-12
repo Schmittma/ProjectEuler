@@ -1,7 +1,8 @@
 package euler;
-import java.util.ArrayList;
-import euler.EulerUtils;
 
+import java.util.ArrayList;
+
+import util.EulerUtils;
 public class Problem60 {
 
 	public static void main(String[] args) {

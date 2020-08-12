@@ -1,5 +1,5 @@
 package euler;
-
+import util.EulerUtils;
 public class Problem71 {
 
 	public static void main(String[] args) {
