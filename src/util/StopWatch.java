@@ -25,11 +25,12 @@ public class StopWatch {
 	/**
 	 * Stops the timer
 	 */
-	public void stop(){
+	public String stop(){
 		if(!isStopped){
 			elapsedTime += (System.nanoTime() - startTime);
 		}
 		isStopped = true;
+		return this.toString();
 	}
 	
 	/**
