@@ -5,4 +5,4 @@ This Repository contains my solutions for the [Project Euler](https://projecteul
 
 The *src* folder contains a source file for every Euler challenge so they are nicely separated. It also enables the possibility of solving in multiple programming languages if i feel like it
 
-The *res* folder contains the given challenge files as well as some other files (e.g. prime number tables) 
+The *res* folder contains files given for the challenges as well as some other files (e.g. prime number tables) 
