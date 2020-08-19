@@ -5,6 +5,14 @@ import java.util.List;
 
 public class EulerUtils {
 	
+	public static int sum(List<Integer> values){
+		int sum = 0;
+		for(int i : values){
+			sum += i;
+		}
+		return sum;
+	}
+	
 	//This function will return a list of prime integers smaller or equal to n
 	public static ArrayList<Integer> getPrimeNumbers(int n){
 		if(n < 2){
@@ -188,4 +196,40 @@ public class EulerUtils {
 		return sum;
 	}
 	
+	/*
+	 * Returns the i-th fibonacci number
+	 * 
+	 * Note: f0 is defined as 0 and f1 is defined as 1 thus f2 is also 1
+	 * Note: If you need performance, you may want to calculate those inside your own loop because this function has to recalculate everytime
+	 */
+	public static long getFibonacciNumber(int i){
+		
+		if(i == 0 || i <= 0){
+			return 0;
+		}
+		if(i == 1){
+			return 1;
+		}
+		
+		long f0 = 0;
+		long f1 = 1;
+		
+		long retVal = 0;
+		
+		long prev = f1;
+		long prev_prev = f0;
+		long fx; 
+		
+		for(int x = 2; x <= i; x++){
+			fx = prev + prev_prev;
+			prev_prev = prev;
+			prev = fx;
+			
+			if(x == i){
+				retVal = fx;
+			}
+		}
+		
+		return retVal;
+	}
 }
